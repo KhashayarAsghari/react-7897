@@ -12,8 +12,16 @@ export default function Header() {
                                 درباره ما
                             </Link>
                         </li>
-                        <li className="font-bold text-lg cursor-pointer underline">تماس با ما</li>
-                        <li className="font-bold text-lg cursor-pointer underline">خانه</li>
+                        <li className="font-bold text-lg cursor-pointer underline">
+                            <Link to="/contact-us">
+                                تماس با ما
+                            </Link>
+                        </li>
+                        <li className="font-bold text-lg cursor-pointer underline">
+                            <Link to="/">
+                                خانه
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
