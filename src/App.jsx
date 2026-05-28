@@ -16,7 +16,7 @@ export default function App() {
         setProducts(jsonData)
         setIsLoading(false)
       })
-      .catch(() => alert("get products failed"))
+      .catch(() => alert("get products failed!"))
   }, [])
 
 
